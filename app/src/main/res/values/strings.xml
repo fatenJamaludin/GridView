@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GridView</string>
+    <string name="Image1">Image1</string>
+    <string name="Image2">Image2</string>
+    <string name="Image3">Image3</string>
+    <string name="Image4">Image4</string>
+    <string name="Image5">Image5</string>
+    <string name="Image6">Image6</string>
+    <string name="Image7">Image7</string>
+    <string name="Image8">Image8</string>
+    <string name="Image9">Image9</string>
+    <string name="Image10">Image10</string>
+    <string name="Image11">Image11</string>
+    <string name="Image12">Image12</string>
+
+
+</resources>
