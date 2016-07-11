@@ -9,7 +9,7 @@ android {
         minSdkVersion 17
         targetSdkVersion 23
         versionCode 1
-        versionName "image_1.0"
+        versionName "1.0"
     }
     buildTypes {
         release {
@@ -29,4 +29,10 @@ dependencies {
     compile 'com.jakewharton:butterknife:5.1.2'
     compile 'com.facebook.android:facebook-android-sdk:4.11.0'
     compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.google.android.gms:play-services-auth:8.3.0'
+    compile 'com.google.android.gms:play-services-identity:8.3.0'
+    compile 'com.google.android.gms:play-services:8.3.0'
+    compile 'com.mcxiaoke.volley:library-aar:1.0.0'
 }
+
+apply plugin: 'com.google.gms.google-services'

@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_below="@+id/friendProfilePicture"
+        android:layout_below="@+id/profileImage"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="53dp" />
 
@@ -34,6 +34,69 @@
         android:adjustViewBounds="true"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/info"
+        android:layout_centerHorizontal="true"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/profileImage"
+        android:scaleType="centerCrop"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_marginTop="78dp"
+        android:layout_below="@+id/sign_in_button"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:text="name"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewEmail"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:text="email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:text="email"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignStart="@+id/textViewName" />
+
+
+        <Button
+            android:id="@+id/sign_out_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sign Out"
+            android:layout_below="@+id/profileImage"
+            android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
